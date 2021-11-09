@@ -1,4 +1,5 @@
 clear
+echo
 echo "****************** UTILIDAD PARA DESINSTALAR ADOBE ****************"
 echo
 echo
