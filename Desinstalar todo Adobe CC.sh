@@ -12,6 +12,7 @@ read
 echo "Ingrese el password de su Mac:"
 echo
 sudo echo
+open https://www.facebook.com/macadmins.pro/reviews/
 sudo killall ACCFinderSync “Core Sync” AdobeCRDaemon “Adobe Creative” AdobeIPCBroker node “Adobe Desktop Service” “Adobe Crash Reporter”
 sudo kill -9 $(ps ax | grep Adobe | awk '{print $1}') &>/dev/null
 sudo rm -dfrv /Applications/Adobe*
@@ -23,5 +24,8 @@ sudo rm -dfrv /var/root/Library/Application\ Support/Adobe
 sudo rm -dfrv /Users/*/Library/Application\ Support/Adobe /Users/*/Library/Preferences/Adobe
 echo
 echo "******************* SUITE ADOBE CC DESINSTALADO *******************"
-
+echo
+echo "[ENTER] para salir ....!"
+read
+exit 0
 
